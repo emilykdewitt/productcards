@@ -1,6 +1,7 @@
 * {
-    padding: 5px;
-    font-family: Tahoma, Geneva, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
 }
 
 .container {
@@ -9,24 +10,24 @@
 }
 
 .item {
-    padding: 2px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     flex-flow: wrap;
     width: 28%;
     box-shadow: 5px 5px lightgrey;
     border: 1px solid lightgrey;
 }
 
-header {
-    border: solid 1px lightblue;
-}
-
 .item-label {
     text-align: center;
+    border: solid 1px lightblue;
+    padding: 8px;
+    background-color: #03A9F4;
+    color: white;
 }
 
 header, .imgwrap {
+    font-family: 'Chivo', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,9 +40,43 @@ header, .imgwrap {
 
 .imgwrap img {
     width: 100%;
+    margin: 8px;
 }
 
 .description > p {
     text-align: justify;
     text-justify: inter-word;
+    padding: 5px;
 }
+
+.description > h5 {
+    background-color: darkgrey;
+    color: yellow;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.specifications, .pricing {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.specifications > p, .pricing > p {
+    font-weight: bold;
+    font-size: .75em;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: .6em;
+}
+
+.dark-primary-color    { background: #0288D1; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFC107; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
