@@ -17,3 +17,7 @@
     background-color: rgb(207, 178, 202);
     box-shadow: 5px 10px lightgrey;
 }
+
+img {
+    width: 90%;
+}
