@@ -1,5 +1,5 @@
 * {
-    padding: 20px;
+    padding: 5px;
 }
 
 .container {
@@ -8,11 +8,12 @@
 }
 
 .item {
-    border: 2px solid red;
-    padding: 20px;
+    border: 2px solid lightblue;
+    padding: 2px;
     margin: auto;
     margin-top: 10px;
     flex-flow: wrap;
     width: 28%;
-    background-color: gray;
+    background-color: rgb(207, 178, 202);
+    box-shadow: 5px 10px lightgrey;
 }
