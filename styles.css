@@ -1,5 +1,18 @@
+* {
+    padding: 20px;
+}
+
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+}
+
+.item {
+    border: 2px solid red;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    flex-flow: wrap;
+    width: 28%;
+    background-color: gray;
 }
