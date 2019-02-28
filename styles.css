@@ -26,21 +26,22 @@ header {
     text-align: center;
 }
 
-.imgwrap {
-    width: 90%;
-    margin: auto;
-}
-
 header, .imgwrap {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+.imgwrap {    
+    margin: auto;
+    width: 50%;
+}
+
 .imgwrap img {
-    display: block;
     width: 100%;
-    max-width: 500px; /*actual image width*/
-    height: auto; /* maintain aspect ratio*/
-    margin: auto; /*optional centering of image*/
- }
+}
+
+.description > p {
+    text-align: justify;
+    text-justify: inter-word;
+}
