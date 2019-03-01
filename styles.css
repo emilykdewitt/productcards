@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: auto;
+    margin-top: 20px;
+    flex-flow: wrap;
+    width: 28%;
+    box-shadow: 5px 5px lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.item-label {
+    text-align: center;
+    border: solid 1px lightblue;
+    padding: 8px;
+    background-color: #03A9F4;
+    color: white;
+}
+
+header, .imgwrap {
+    font-family: 'Chivo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.imgwrap {    
+    margin: auto;
+    width: 50%;
+}
+
+.imgwrap img {
+    width: 100%;
+    margin: 8px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }
+
+.description > p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 5px;
+}
+
+.description > h5 {
+    background-color: darkgrey;
+    color: yellow;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.specifications, .pricing {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.specifications > p, .pricing > p {
+    font-weight: bold;
+    font-size: .75em;
+    color: #757575;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: .6em;
+}
+
+@media only screen and (max-width: 525px) {
+    .item {
+        width: 80%;
+    }
+  }
