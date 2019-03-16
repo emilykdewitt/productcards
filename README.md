@@ -2,7 +2,7 @@
 This project uses CSS styling to display an variety of t-shirts with images and descriptions of each. The purpose of this project was to practice more complex CSS flexbox styling and display techniques.
 
 ## Images
-![Product Card Screenshot]()
+![Product Card Screenshot](https://raw.githubusercontent.com/emilykdewitt/productcards/addscreenshot/product-cards.png)
 
 ## Getting Started
 ```
